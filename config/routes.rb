@@ -54,4 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'landing_page#index'
-end
+  resources :landing_pages
+ end
