@@ -1,4 +1,4 @@
-<div class="cover" style="height: 900px">
+<div class="cover">
 
   <div class="cover-image" style="background-image : url(<%= asset_path 'Ermitage_mithra_et_le_taureau.JPG' %>)"></div>
   <div class="container">
