@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/railsmith/dialectic.git
+  remote: https://github.com/railsmith/dialectic.git
   revision: df73acdc304aa06c4aaa68aeaeb8021bb28603ad
   specs:
     dialectic (0.0.1)
@@ -169,4 +169,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
