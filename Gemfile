@@ -23,6 +23,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'dialectic', git: 'https://github.com/railsmith/dialectic.git'
 
+group :mongoid do
+  gem 'mongoid', '~> 5.1.0'
+  gem 'mongoid_rails_migrations'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
