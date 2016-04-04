@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   root 'landing_page#index'
   resources :landing_pages
+  mount Dialectic::Engine => "/dialectic", as: 'dialectic'
  end

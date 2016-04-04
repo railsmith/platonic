@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/railsmith/dialectic.git
+  revision: df73acdc304aa06c4aaa68aeaeb8021bb28603ad
+  specs:
+    dialectic (0.0.1)
+      rails (~> 4.2.5.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -149,6 +156,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  dialectic!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.5.2)
