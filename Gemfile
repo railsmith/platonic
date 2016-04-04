@@ -22,6 +22,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'dialectic', git: 'https://github.com/railsmith/dialectic.git'
+gem 'pg'
 
 group :mongoid do
   gem 'mongoid', '~> 5.1.0'
