@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/railsmith/dialectic.git
-  revision: 3153b84a0d6cc9a00b794ed9615f6d37dc8f7319
+  revision: 3f5dace7f88a0ad68ad4c2206388f9af10d37900
   specs:
     dialectic (0.0.1)
       rails (>= 5.1.0)
