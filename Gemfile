@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.11.5'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'dialectic', git: 'https://github.com/railsmith/dialectic.git'
-gem 'pg', '~> 0.18.4'
+gem 'pg', '~> 1.3.0.rc3'
 gem 'mysql2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 group :mongoid do

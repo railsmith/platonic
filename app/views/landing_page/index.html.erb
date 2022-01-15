@@ -1,16 +1,19 @@
 <div class="cover" style="height: 900px">
 
-  <div class="cover-image" style="background-image : url(<%= asset_path 'Ermitage_mithra_et_le_taureau.JPG' %>)"></div>
+  <div class="cover-image" style="background-image : url(<%= asset_path 'Ermitage_mithra_et_le_taureau.JPG' %>);background-size: cover">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-white text-center" style="
+    padding: 25rem !important;
+">
         <h1>PlatonicRealism.com</h1>
-        <p>A &nbsp;revival of Pagan mystery religions</p>
+        <h3>A &nbsp;revival of Pagan mystery religions</h3>
         <br>
         <br>
-        <%= link_to " Enter here to discuss", dialectic_path, data: { turbolinks: 'false' }, class: 'btn btn-lg btn-primary' %>
+        <%= link_to " Click here to discuss", dialectic_path, data: { turbolinks: 'false' }, class: 'btn btn-lg btn-primary' %>
       </div>
     </div>
+  </div>
   </div>
 </div>
 <div class="section">
